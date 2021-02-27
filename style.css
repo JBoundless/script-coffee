@@ -1,0 +1,66 @@
+body {
+ background-color: #CFB997;
+ color: black;
+ text-align: center;
+ margin: auto;
+ font-family: 'Source Code Pro', monospace;
+}
+h1 {
+  font-size: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-nav {
+  background-color: brown;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+.top {
+background-image: url('https://coffeedelivery123.com/wp-content/uploads/2019/04/blockchaincoffee-1920x500.jpg');
+background-size: cover; 
+  height:500px;
+  width:1920px;
+  color: white;
+  margin-top: 0;
+}
+.about-us {
+  border-top: 20px solid #CFB997;
+}
+.about-us-info {
+  position: absolute;
+  width: 960px;
+  height: 544px;
+  background-color: #CFB997;
+  color: black;
+}
+.about-us-img {
+  float: right;
+  margin: auto;
+  background-color: #CFB997;
+}
+img {
+  border-radius: 15px;
+}
+.menu-btn {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+.menu-btn:hover {
+  cursor: pointer;
+}
+.delivery-btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.delivery-btn:hover {
+    cursor: pointer;
+}
+.buttons {
+  position: absolute;
+  bottom: 10px;
+  left: 25%;
+}
