@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<body>
+  <head>
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+<style>
+  body {
+    text-align: center;
+    background-color: #CFB997;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  form {
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 500px;
+    line-height: 1.5;
+  }
+  .submit-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+  .submit-btn:hover {
+    cursor: pointer;
+  }
+</style>
+<h1>Order Form</h1>
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email" placeholder="Enter fake email">
+  <p>Choose your coffee</p><br>
+  <input type="radio" id="espressos" name="espressos" value="espressos">
+  <label for="espressos">Espressos</label><br>
+  <ul>
+    <li><input type="checkbox" />Ristretto</li>
+    <li><input type="checkbox" />Doppio</li>
+    <li><input type="checkbox" />Cappucino</li>
+    <li><input type="checkbox" />Caffe Latte</li>
+    <li><input type="checkbox" />Espresso Macchiato</li>
+    <li><input type="checkbox" />Latte Macchiato</li>
+    <li><input type="checkbox" />Flat White</li>
+  </ul>
+  <input type="radio" id="lattes" name="lattes" value="lattes">
+  <label for="lattes">Lattes</label><br>
+    <li><input type="checkbox" />Vanilla</li>
+    <li><input type="checkbox" />Caramel</li>
+    <li><input type="checkbox" />Mocha</li>
+    <li><input type="checkbox" />Pumpkin Spice</li>
+    <li><input type="checkbox" />Hazelnut</li>
+    <li><input type="checkbox" />Coconut</li>
+    <li><input type="checkbox" />Lavender</li>
+  <input type="radio" id="cold-brew" name="cold-brew" value="cold-brew">
+  <label for="cold-brew">Cold Brew</label><br>
+      <li><input type="checkbox" />Vanilla</li>
+    <li><input type="checkbox" />Caramel</li>
+    <li><input type="checkbox" />Mocha</li>
+    <li><input type="checkbox" />Pumpkin Spice</li>
+    <li><input type="checkbox" />Hazelnut</li>
+    <li><input type="checkbox" />Coconut</li>
+    <li><input type="checkbox" />Lavender</li>
+  <button class="submit-btn" onclick="alert('Your order has been placed successfully!');">SUBMIT</button>
+</form>
+</body>
